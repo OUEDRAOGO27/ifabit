@@ -1,0 +1,27 @@
+@import url(color.css);
+
+.bg-tertiaryColor{
+    color: gray!important;
+    
+}
+.title-about{
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.about-btn #connecter{
+    margin-left: 10px;
+}
+.bg-primaryColor{
+    color: #e7760c;
+    
+}
+.bg-secondaryColor{
+    color: #f1f1f1;
+    
+}

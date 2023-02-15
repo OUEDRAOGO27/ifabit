@@ -1,0 +1,100 @@
+
+@import url(color.css);
+
+
+.bg-tertiaryColor{
+    color: gray!important;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background: var(--bg-primary-color);
+    border-bottom: none;
+    
+}
+.logo-img{
+    width: 100px;
+    margin: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Work Sans';
+}
+
+nav ul li a::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background: var(--bg-primary-color);
+    transition: 0.6s ease-out;
+}
+
+nav ul li a:hover::after{
+    width: 50%;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color:#fff;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    margin: auto 2rem;
+}
+
+
+#nav .lien{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 8px;
+    font-family: 'Work Sans';
+}
+#nav .lien:hover{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Work Sans';
+}
+
+#nav .lien:hover::after{
+    width: 50%;
+    color: #fff;
+}
+
+@media (max-width : 576px) {
+    #signupMenu{
+        margin-top: 8px;
+        width: 52%;
+    }
+    #signinMenu{
+        width: 52%;
+    }
+    .reseau-socio{
+ 
+        margin-bottom: 8px;
+      }
+}

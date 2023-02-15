@@ -1,0 +1,243 @@
+@import url(color.css);
+.bg-tertiaryColor{
+    color: gray!important;
+    
+}
+
+.hero {
+    height: 85vh;
+    background: var(--bg-primary-color);
+    border-top: none;
+    opacity: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Work Sans';
+    font-size: 18px;
+    text-align: justify;
+}
+
+.mobile {
+    width: 100%;
+}
+
+.about, .devises, .faq {
+    background-color: #e7760c;
+}
+
+.crypto {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #e7760c;
+    width: 100%;
+}
+
+.img-andios {
+    width: 80%;
+}
+.crypto-icon{
+    font-size: 45px;
+    margin-left: 165px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #000;
+}
+.crypto-h5{
+    text-align: center center;
+    margin-left: 65px;
+    font-size: 28px;
+    /* color: #e7760c; */
+    width: 280px;
+    padding: 5px;
+}
+.crypto-p{
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 35px;
+    padding: 5px;
+    width: 400px;
+    text-align: justify;
+}
+
+.crypto-col{
+    margin-left: 0px;
+}
+.integrer-api{
+    background: none;
+    height: 750px;
+    /* border: 1px solid black;  */ 
+}
+.integrer-container{
+ /*  background: url(../img/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+    margin-top: 8px;
+   /*  border: 1px solid black; */
+    height: 722px!important;
+}
+.integrer-div{
+    margin-top: 80px;
+    margin-right: 100px;
+float: right;/* 
+ border: 1px solid black; */ 
+}
+.integrer-h1{
+    color: #FF1E69;
+    margin-bottom: 35px;
+}
+.btn-guide{
+    border-radius: 10px;
+    letter-spacing: 1px;
+  background: transparent linear-gradient(180deg, #FF1E69 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  opacity: 1;
+  height: 65px;
+  width: 300px;
+  text-align:  center;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+  text-transform: uppercase;
+
+}
+.btn-guide:hover{
+    color: #ffffff;
+    filter: brightness(0.8);
+    opacity: 1;
+}
+.integrer-p{
+  text-align: justify;  
+  font-size: 23px;
+}
+.devises{
+    background: none;
+    height: 750px;
+    /* border: 1px solid black; */
+}
+.devises-api{
+    background: none;
+    height: 750px;
+    border: 1px solid black;  
+}
+.devises-container{
+ /*  background: url(../img/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+    margin-top: 8px;
+   /*  border: 1px solid black; */
+    height: 722px!important;
+}
+.devises-div{
+    margin-top: 80px;
+    margin-right: 100px;
+float: left;/* 
+ border: 1px solid black; */ 
+}
+.devises-h1{
+    color: #FF1E69;
+    margin-bottom: 35px;
+}
+.btn-guide{
+    border-radius: 10px;
+    letter-spacing: 1px;
+  background: transparent linear-gradient(180deg, #FF1E69 0%, #FFA502 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  opacity: 1;
+  height: 65px;
+  width: 300px;
+  text-align:  center;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-left: 15px;
+  text-transform: uppercase;
+
+}
+.btn-guide:hover{
+    color: #ffffff;
+    filter: brightness(0.8);
+    opacity: 1;
+}
+.devises-p{
+  text-align: justify;  
+  font-size: 23px;
+}
+
+@media (max-width : 576px) {
+    .download-app {
+        display: flex;
+    }
+
+    .download-app a {
+        width: 50%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #CarouselImgHome {
+        height: 130px !important;
+        width: 350px !important;
+    }
+
+    #divImg {
+        width: 300px !important;
+        margin-left: 50px !important;
+        padding: 0;
+    }
+    .about{
+        padding: 1%;
+        
+    }
+    .about .mobile-about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-mobile #about-text-mobile{
+        text-align: center;
+        font-size: 30px;
+        padding: 8px;
+        font-weight: bold;
+    }
+    .about-mobile a{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .commentcamarche{
+        padding-top: 0%;
+    }
+    .commentcamarche #howdoit{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .timeline-text{
+        font-size: 15px;
+    }
+}
+
+#CarouselImgHome {
+    height: 350px !important;
+    width: 450px !important;
+}
+
+#divImg {
+    width: 400px !important;
+    margin-left: 100px !important;
+}
+
+#carousel {
+    border: none;
+}
